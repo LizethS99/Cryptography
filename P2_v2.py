@@ -75,7 +75,7 @@ ventana1.geometry("500x250")
 ventana1.config(bg="#A8A8D3")
 ventana1.title("Práctica 2")
 image = Image
-img = PhotoImage(file="Practica3\cfondo.gif")
+img = PhotoImage(file="Practica3\cfondo.gif") #Practica3 es sólo si se encuentra en esa carpeta, si no es así lo borramos
 lblImagen = Label(ventana1, image= img).place(x=0, y=0)
 alf = IntVar()
 beta = IntVar()
